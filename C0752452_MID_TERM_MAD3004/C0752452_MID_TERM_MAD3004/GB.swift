@@ -7,4 +7,11 @@
 //
 
 import Foundation
-
+extension Double
+{
+    func GB() -> String
+    {
+        return "\(self) GB"
+    }
+    
+}
