@@ -7,4 +7,6 @@
 //
 
 import Foundation
-
+protocol IDisplay {
+    func displayDetails()
+}
