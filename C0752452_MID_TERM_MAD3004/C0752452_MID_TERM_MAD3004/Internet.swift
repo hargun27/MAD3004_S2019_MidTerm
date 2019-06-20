@@ -16,11 +16,18 @@ class Internet : Bill
             return providerName
         }
     }
-    var internetGb : Int?
-    var getInternetGb : Int?
+    var internetGb : Double?
+    var getInternetGb : Double?
     {
         get {
             return internetGb
         }
+}
+    init(billid : String , billdate : Date , billtype : String , totalbillamount :  Float , providerName : String , internetGb : Double)
+    {
+        self.providerName = providerName
+        self.internetGb = internetGb
+        super.init(billid: billid, billdate: billdate, billtype : billtype, totalbillamount : totalbillamount)
+    
 }
 }
