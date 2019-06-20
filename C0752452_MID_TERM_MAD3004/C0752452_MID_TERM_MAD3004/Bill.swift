@@ -27,8 +27,7 @@ class Bill
          print("Billdate is : \(String(describing : self.billDate))")
          print("Billtype is : \(String(describing : self.billType))")
          print("Billtotalamount is : \(String(describing : self.totalBillAmount))")
-        ;
-        
+    
     }
     
 }
