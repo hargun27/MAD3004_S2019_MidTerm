@@ -7,3 +7,19 @@
 //
 
 import Foundation
+class Bill
+{
+    let billId : String?
+    var billDate : Date = Date()
+    var billType : String?
+    var totalBillAmount : Float
+    
+    init(billid : String , billdate : Date , billtype : String , totalbillamount :  Float)
+    {
+       self.billId = billid
+        self.billDate = billdate
+        self.billType = billtype
+        self.totalBillAmount = totalbillamount
+    }
+    
+}
