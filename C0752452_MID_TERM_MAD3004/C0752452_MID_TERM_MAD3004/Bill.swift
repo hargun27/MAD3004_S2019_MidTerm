@@ -21,5 +21,14 @@ class Bill
         self.billType = billtype
         self.totalBillAmount = totalbillamount
     }
+    func IDisplay()
+    {
+        print("BillId is : \(String(describing : self.billId))")
+         print("Billdate is : \(String(describing : self.billDate))")
+         print("Billtype is : \(String(describing : self.billType))")
+         print("Billtotalamount is : \(String(describing : self.totalBillAmount))")
+        ;
+        
+    }
     
 }
