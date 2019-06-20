@@ -10,6 +10,17 @@ import Foundation
 class Internet : Bill
 {
     var providerName : String?
-    var internetgb : Int?
-    
+    var getProviderName : String?
+    {
+        get{
+            return providerName
+        }
+    }
+    var internetGb : Int?
+    var getInternetGb : Int?
+    {
+        get {
+            return internetGb
+        }
+}
 }
