@@ -9,7 +9,7 @@
 import Foundation
 class Bill
 {
-    private let billId : String?
+    let billId : String?
     var billDate : Date = Date()
     var billType : String?
     var totalBillAmount : Double?
