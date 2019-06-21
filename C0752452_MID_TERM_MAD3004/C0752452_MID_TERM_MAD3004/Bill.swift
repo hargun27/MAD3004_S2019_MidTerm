@@ -12,21 +12,21 @@ class Bill
     let billId : String?
     var billDate : Date = Date()
     var billType : String?
-    var totalBillAmount : Float
+    var totalBillAmount : Double?
     
-    init(billid : String , billdate : Date , billtype : String , totalbillamount :  Float)
+    init(billid : String , billdate : Date , billtype : String , totalbillamount :  Double)
     {
        self.billId = billid
         self.billDate = billdate
         self.billType = billtype
-        self.totalBillAmount = totalbillamount
+        self.totalBillAmount = 0.0
     }
     func IDisplay()
     {
         print("BillId is : \(String(describing : self.billId))")
          print("Billdate is : \(String(describing : self.billDate))")
          print("Billtype is : \(String(describing : self.billType))")
-         print("Billtotalamount is : \(String(describing : self.totalBillAmount))")
+        print("Billtotalamount is : \(String(describing : self.totalBillAmount?.amount))")
     
     }
     

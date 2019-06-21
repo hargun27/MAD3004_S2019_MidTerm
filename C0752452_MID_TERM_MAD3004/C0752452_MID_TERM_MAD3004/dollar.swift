@@ -1,5 +1,5 @@
 //
-//  Mobile.swift
+//  dollar.swift
 //  C0752452_MID_TERM_MAD3004
 //
 //  Created by Hargun Marya on 2019-06-20.
@@ -7,7 +7,12 @@
 //
 
 import Foundation
-class Mobile : Bill
+extension Double
 {
+    func amount() -> String
+    {
+        return "$\(self)"
+    }
     
 }
+

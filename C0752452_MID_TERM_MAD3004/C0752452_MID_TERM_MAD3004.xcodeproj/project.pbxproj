@@ -16,6 +16,7 @@
 		0AF9BDF422BC43240003D231 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9BDF322BC43240003D231 /* IDisplay.swift */; };
 		0AF9BDF822BC45D80003D231 /* ExtentionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9BDF722BC45D80003D231 /* ExtentionDate.swift */; };
 		0AF9BDFC22BC52870003D231 /* GB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9BDFB22BC52870003D231 /* GB.swift */; };
+		0AF9BDFE22BC56110003D231 /* dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9BDFD22BC56110003D231 /* dollar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		0AF9BDF322BC43240003D231 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 		0AF9BDF722BC45D80003D231 /* ExtentionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionDate.swift; sourceTree = "<group>"; };
 		0AF9BDFB22BC52870003D231 /* GB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GB.swift; sourceTree = "<group>"; };
+		0AF9BDFD22BC56110003D231 /* dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dollar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				0AF9BDF022BC43040003D231 /* Customer.swift */,
 				0AF9BDF722BC45D80003D231 /* ExtentionDate.swift */,
 				0AF9BDFB22BC52870003D231 /* GB.swift */,
+				0AF9BDFD22BC56110003D231 /* dollar.swift */,
 			);
 			path = C0752452_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				0AF9BDE922BC42C00003D231 /* Bill.swift in Sources */,
 				0AF9BDF422BC43240003D231 /* IDisplay.swift in Sources */,
 				0AF9BDF122BC43040003D231 /* Customer.swift in Sources */,
+				0AF9BDFE22BC56110003D231 /* dollar.swift in Sources */,
 				0AF9BDE222BC3C910003D231 /* main.swift in Sources */,
 				0AF9BDED22BC42E00003D231 /* Mobile.swift in Sources */,
 			);
