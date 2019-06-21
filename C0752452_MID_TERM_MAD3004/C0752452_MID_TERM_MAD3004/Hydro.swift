@@ -7,3 +7,15 @@
 //
 
 import Foundation
+class Hydro : Bill
+{
+    private let agencyName : String?
+    var getAgencyName : String?
+    {
+        get{
+            return agencyName
+        }
+    }
+    
+    var units : Int
+}
