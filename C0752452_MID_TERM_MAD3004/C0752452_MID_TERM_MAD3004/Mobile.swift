@@ -49,6 +49,7 @@ class Mobile : Bill
         super.init(billid: billid, billdate: billdate, billtype: billtype, totalbillamount: totalbillamount)
         
     }
+    
     }
     
     
