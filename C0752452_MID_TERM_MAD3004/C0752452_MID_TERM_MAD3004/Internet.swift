@@ -27,10 +27,10 @@ class Internet : Bill
     {
         self.providerName = providerName
         self.internetGb = internetGb
-        super.init(billid: billid, billdate: billdate, billtype : billtype, totalbillamount : totalbillamount)
+        super.init(billid: billid, billdate: billdate, billtype : billtype, totalbillamount : Double(totalbillamount))
     
 }
     override func IDisplay() {
-        print(self.billId! , self.billDate , self.billType! , self.totalBillAmount, self.providerName!, self.internetGb!.GB())
+        print(self.billId! , self.billDate , self.billType! , self.totalBillAmount?.amount(), self.providerName!, self.internetGb!.GB())
     }
 }
