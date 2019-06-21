@@ -30,4 +30,7 @@ class Internet : Bill
         super.init(billid: billid, billdate: billdate, billtype : billtype, totalbillamount : totalbillamount)
     
 }
+    override func IDisplay() {
+        print(self.billId! , self.billDate , self.billType! , self.totalBillAmount, self.providerName!, self.internetGb!.GB())
+    }
 }
