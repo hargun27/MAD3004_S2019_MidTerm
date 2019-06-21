@@ -18,4 +18,18 @@ class Hydro : Bill
     }
     
     var units : Int
+    var unit : Int?
+    {
+        get {
+            return units
+        }
+    }
+    init(billid: Int, billdate: Date, billtype: String, totalbillamount: Double , agencyName : String , units : Int)  {
+        self.agencyName = agencyName
+        self.units = units
+    }
+    override func IDisplay() {
+        print(self.billId! , self.billDate, self.billType! , self.totalBillAmount! , self.agencyName! , self.units.unit())
+    }
+    
 }
