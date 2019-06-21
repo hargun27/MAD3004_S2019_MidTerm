@@ -9,12 +9,12 @@
 import Foundation
 class Bill
 {
-    let billId : String?
+    var billId : Int?
     var billDate : Date = Date()
     var billType : String?
     var totalBillAmount : Double?
     
-    init(billid : String , billdate : Date , billtype : String , totalbillamount :  Double)
+    init(billid : Int , billdate : Date , billtype : String , totalbillamount :  Double)
     {
        self.billId = billid
         self.billDate = billdate
@@ -24,7 +24,7 @@ class Bill
     func IDisplay()
     {
         print("BillId is : \(String(describing : self.billId))")
-         print("Billdate is : \(String(describing : self.billDate))")
+         print("Billdate is : \(String(describing : self.billDate.FormatDate()))")
          print("Billtype is : \(String(describing : self.billType))")
         print("Billtotalamount is : \(String(describing : self.totalBillAmount?.amount))")
     

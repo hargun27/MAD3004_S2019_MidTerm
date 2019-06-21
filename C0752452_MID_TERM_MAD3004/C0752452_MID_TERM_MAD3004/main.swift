@@ -7,5 +7,6 @@
 //
 
 import Foundation
+var i : [Internet] = [Internet.init(billid: "1", billdate: 2, billtype: <#T##String#>, totalbillamount: <#T##Float#>, providerName: <#T##String#>, internetGb: <#T##Double#>)]
 
 
